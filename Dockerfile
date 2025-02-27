@@ -19,9 +19,9 @@ FROM node:16-alpine as frontend-build
 
 WORKDIR /app
 
-# Copy frontend files
-COPY frontend/package*.json ./
-RUN npm ci
+# Copy frontend files - modified to only look for package.json
+COPY frontend/package.json ./
+RUN npm install
 
 COPY frontend/ ./
 RUN npm run build
