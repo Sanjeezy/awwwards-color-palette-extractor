@@ -25,3 +25,22 @@ main {
   padding: 20px;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
+
+.error-message {
+  background-color: #fee2e2;
+  color: #b91c1c;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: left;
+  margin: 20px 0;
+}
+
+.error-message pre {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 4px;
+  overflow-x: auto;
+  font-family: monospace;
+  margin-top: 10px;
+  color: #333;
+}
