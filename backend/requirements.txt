@@ -1,0 +1,21 @@
+# Flask and extensions
+flask==2.2.3
+flask-cors==3.0.10
+
+# Data processing and analysis
+numpy==1.24.2
+scikit-learn==1.2.2
+pillow==9.4.0
+
+# Web scraping
+requests==2.28.2
+beautifulsoup4==4.11.2
+
+# Scheduling
+apscheduler==3.10.1
+
+# Environment variables
+python-dotenv==1.0.0
+
+# Utilities
+uuid==1.30
