@@ -45,7 +45,7 @@ function App() {
                 curl -X POST http://localhost:5001/api/trigger-scrape \<br/>
                 &nbsp;&nbsp;-H "X-API-Key: default-dev-key-change-in-prod" \<br/>
                 &nbsp;&nbsp;-H "Content-Type: application/json" \<br/>
-                &nbsp;&nbsp;-d '{"pages": 1}'
+                &nbsp;&nbsp;-d {'{'}"{'"'}pages{'"'}: 1{'}'}
               </pre>
             </p>
           </div>
