@@ -1,0 +1,10 @@
+FROM node:16-alpine
+
+WORKDIR /app
+
+# Install dependencies
+COPY package.json package-lock.json ./
+RUN npm ci
+
+# Keep the container running
+CMD ["npm", "start"]
