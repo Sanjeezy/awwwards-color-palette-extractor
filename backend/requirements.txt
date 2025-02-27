@@ -1,5 +1,6 @@
 # Flask and extensions
-flask==2.2.3
+flask==2.0.3
+werkzeug==2.0.3
 flask-cors==3.0.10
 
 # Data processing and analysis
@@ -19,3 +20,6 @@ python-dotenv==1.0.0
 
 # Utilities
 uuid==1.30
+
+# WSGI server for production
+gunicorn==20.1.0
